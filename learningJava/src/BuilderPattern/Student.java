@@ -89,7 +89,7 @@ public class Student {
     }
 
 
-    private Student(Builder builder) throws IllegalArgumentException{
+    private Student(Builder builder){
         this.age = builder.getAge();
         this.name = builder.getName();
         this.gradYear = builder.getGradYear();
